@@ -1,0 +1,170 @@
+{
+  "uid" : "4db4b51e7f1d7189",
+  "name" : "test_login_book[datas0]",
+  "fullName" : "test_login_token_book#test_login_book",
+  "historyId" : "6eba89be57aaa519c6c26b29871e1dd6",
+  "time" : {
+    "start" : 1623206387342,
+    "stop" : 1623206387470,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1623206387338,
+      "stop" : 1623206387338,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1623206387338,
+      "stop" : 1623206387338,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1623206387338,
+      "stop" : 1623206387338,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1623206387338,
+      "stop" : 1623206387338,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "host",
+    "value" : "PC-20210511KEAY"
+  }, {
+    "name" : "thread",
+    "value" : "1628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c062c032d5e43715",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /auth (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002AA4EAE37F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1623204638740,
+        "stop" : 1623204639865,
+        "duration" : 1125
+      }
+    }, {
+      "uid" : "df6bbfa43f2a420e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623163761016,
+        "stop" : 1623163761197,
+        "duration" : 181
+      }
+    }, {
+      "uid" : "14a9be5fde3cc35c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623163722634,
+        "stop" : 1623163735799,
+        "duration" : 13165
+      }
+    }, {
+      "uid" : "2d1cab55ef84440d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623163628157,
+        "stop" : 1623163628316,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "53d43a8c38a53340",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623163496992,
+        "stop" : 1623163497131,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "6d0ec027b2966662",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623163123350,
+        "stop" : 1623163123580,
+        "duration" : 230
+      }
+    }, {
+      "uid" : "bed2246c28b0fa3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623162862111,
+        "stop" : 1623162862240,
+        "duration" : 129
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4db4b51e7f1d7189.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': 'Python接口自动化测试实战', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}
